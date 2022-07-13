@@ -2,6 +2,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class FizzBuzzTest {
@@ -24,10 +25,10 @@ class FizzBuzzTest {
     }
 
     @Test
-    void startswithf() {
-        String testString = "fun";
-        String str = f.fizzBuzz(testString);
-        assertEquals("Fizz", str);
+    void startswithother() {
+        String testString  = "happy";
+        String strTest = f.fizzBuzz(testString);
+        assertEquals("happy", strTest);
     }
 
 
@@ -40,8 +41,8 @@ class FizzBuzzTest {
 
     @Test
     void returnsnull() {
-        String [] testArray = null;
-        String[] strArray = f.fizzBuzzArray(testArray);
+        String  testArray = null;
+        String strArray = f.fizzBuzz(testArray);
         assertEquals(null, strArray);
     }
 
