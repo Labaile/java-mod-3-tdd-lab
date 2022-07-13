@@ -40,9 +40,9 @@ class FizzBuzzTest {
 
     @Test
     void returnsnull() {
-        String testString = null;
-        String str = f.fizzBuzz(testString);
-        assertEquals(null, str);
+        String [] testArray = null;
+        String[] strArray = f.fizzBuzzArray(testArray);
+        assertEquals(null, strArray);
     }
 
 }

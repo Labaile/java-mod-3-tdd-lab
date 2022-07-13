@@ -18,4 +18,14 @@ public class FizzBuzz {
         if (str.endsWith("b")) return "Buzz";
 
         return str;}
+
+    public String[] fizzBuzzArray(String[] str){
+        if (str == null) return null;
+
+    return str;}
+
+
+
+
+
 }//close class
