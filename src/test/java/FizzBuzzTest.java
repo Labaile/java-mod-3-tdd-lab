@@ -19,7 +19,7 @@ class FizzBuzzTest {
     @Test
     void fizzBuzzString() {
         String testString = "fub";
-        String str = f.fizzBuzzString(testString);
+        String str = f.fizzBuzz(testString);
         assertEquals("FizzBuzz", str);
     }
 
@@ -34,7 +34,7 @@ class FizzBuzzTest {
     @Test
     void endwithb() {
         String testString = "tub";
-        String str = f.fizzBuzzString(testString);
+        String str = f.fizzBuzz(testString);
         assertEquals("Buzz", str);
     }
 
