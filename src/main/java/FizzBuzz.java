@@ -14,7 +14,8 @@ public class FizzBuzz {
     public String fizzBuzz(String str) {
         if (str == null) {
             return null;
-        } return str;
+        }if (str.startsWith("f")) return "Fizz";
+        return str;
     }
 
 }//close class
